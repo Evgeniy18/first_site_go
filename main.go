@@ -1,23 +1,21 @@
 package main
 
 import (
-	"io"
-	"log"
+	"fmt"
 	"net/http"
-	"os"
+
+	"github.com/gin-gonic/gin"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello, World!")
-}
-
 func main() {
-	port := os.Getenv("PORT")
 
-	if port == "" {
-		log.Fatal("$PORT must be set")
-	}
+	router := gin.New()
+	router.Use(gin.Logger())
 
-	http.HandleFunc("/", handler)
-	http.ListenAndServe(":"+port, nil)
+	router.GET("/", func(c *gin.Context) {
+		c.String(http.StatusOK, "Hello, World!", nil)
+	})
+
+	fmt.Println(":8080")
+	router.Run(":8080")
 }
