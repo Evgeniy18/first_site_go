@@ -21,7 +21,7 @@ func main() {
 	router.Use(gin.Logger())
 
 	router.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "Hello, World!", nil)
+		c.String(http.StatusOK, "Hello, World!")
 	})
 
 	fmt.Println(":" + port)
