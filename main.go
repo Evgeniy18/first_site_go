@@ -1,15 +1,19 @@
 package main
 
 import (
-	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Привет, мир!")
-	w.Write([]byte("!!!"))
+	f, err := ioutil.ReadFile("src/stops.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Write(f)
 }
 
 func main() {
@@ -20,7 +24,7 @@ func main() {
 		log.Fatal("$PORT must be set")
 	}
 
-	http.HandleFunc("/", handler)
-	fmt.Println("starting server at :" + port)
+	http.HandleFunc("/stops", handler)
 	http.ListenAndServe(":"+port, nil)
+
 }
