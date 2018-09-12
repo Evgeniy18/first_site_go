@@ -25,6 +25,24 @@ func stopsPretty(w http.ResponseWriter, r *http.Request) {
 	w.Write(f)
 }
 
+func stations(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/stations.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Write(f)
+}
+
+func stationsPretty(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/stations_pretty.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Write(f)
+}
+
 func main() {
 
 	port := os.Getenv("PORT")
@@ -35,6 +53,8 @@ func main() {
 
 	http.HandleFunc("/stops", stops)
 	http.HandleFunc("/stops_pretty", stopsPretty)
+	http.HandleFunc("/stations", stations)
+	http.HandleFunc("/stations_pretty", stationsPretty)
 	http.ListenAndServe(":"+port, nil)
 
 }
