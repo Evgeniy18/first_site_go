@@ -7,8 +7,17 @@ import (
 	"os"
 )
 
-func handler(w http.ResponseWriter, r *http.Request) {
+func stops(w http.ResponseWriter, r *http.Request) {
 	f, err := ioutil.ReadFile("src/stops.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Write(f)
+}
+
+func stopsPretty(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/stops_pretty.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -24,7 +33,8 @@ func main() {
 		log.Fatal("$PORT must be set")
 	}
 
-	http.HandleFunc("/stops", handler)
+	http.HandleFunc("/stops", stops)
+	http.HandleFunc("/stops_pretty", stopsPretty)
 	http.ListenAndServe(":"+port, nil)
 
 }
