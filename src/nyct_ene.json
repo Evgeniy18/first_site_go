@@ -1,0 +1,964 @@
+[
+	{
+		"nycoutages": {
+			"Space": "",
+			"Local": "NYCOutages"
+		},
+		"responsecode": {
+			"text": "0"
+		},
+		"message": {},
+		"outage": [
+			{
+				"station": {
+					"text": "14 St - Union Sq"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "L"
+				},
+				"equipment": {
+					"text": "EL218"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "MEZZANINE TO L PLATFORM"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/19/2018  5:46:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018 11:00:00 PM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "14 St - Union Sq"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "L"
+				},
+				"equipment": {
+					"text": "EL218"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "MEZZANINE TO L PLATFORM"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/21/2018 11:00:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  6:00:00 AM"
+				},
+				"reason": {
+					"text": "INSPECTION"
+				},
+				"isupcomingoutage": {
+					"text": "Y"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "149 St - 3 Av"
+				},
+				"borough": {
+					"text": "BX"
+				},
+				"trainno": {
+					"text": "2/5"
+				},
+				"equipment": {
+					"text": "EL130"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "STREET TO DOWNTOWN PLATFORM"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/21/2018 11:00:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  6:00:00 AM"
+				},
+				"reason": {
+					"text": "INSPECTION"
+				},
+				"isupcomingoutage": {
+					"text": "Y"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "181 St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "1"
+				},
+				"equipment": {
+					"text": "EL109"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "LOWER MEZZANINE TO UPPER MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/21/2018  3:26:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018 12:00:00 PM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "181 St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "A"
+				},
+				"equipment": {
+					"text": "ES118"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "LOWER MEZZANINE TO UPPER MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/20/2018  7:35:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  4:00:00 AM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "42 St - Port Authority Bus Terminal"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "A/C/E"
+				},
+				"equipment": {
+					"text": "ES607X"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "MEZZANINE TO STREET"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/21/2018 12:45:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018  9:00:00 AM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "59 St - Columbus Cir"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "1/A/B/C/D"
+				},
+				"equipment": {
+					"text": "ES250X"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "STREET TO MEZZANINE ALL TRAINS"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/20/2018  9:00:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018  1:00:00 PM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "61 St - Woodside"
+				},
+				"borough": {
+					"text": "QNS"
+				},
+				"trainno": {
+					"text": "7"
+				},
+				"equipment": {
+					"text": "EL419X"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "MEZZANINE TO LIRR PLATFORM C"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "08/13/2018  2:26:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "11/02/2018 10:00:00 AM"
+				},
+				"reason": {
+					"text": "ELEVATOR REHABILITATION"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "96 St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "1/2/3"
+				},
+				"equipment": {
+					"text": "EL146"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "STREET TO UPTOWN PLATFORM"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/21/2018  3:26:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018 12:00:00 PM"
+				},
+				"reason": {
+					"text": "UNDER INVESTIGATION"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "96 St / 2 Av"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "Q"
+				},
+				"equipment": {
+					"text": "ES270"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "MEZZANINE TO STREET LEVEL S-E"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/21/2018  1:10:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018 10:00:00 AM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Atlantic Av-Barclays Ctr"
+				},
+				"borough": {
+					"text": "BKN"
+				},
+				"trainno": {
+					"text": "2/3/4/5/B/Q/LIRR"
+				},
+				"equipment": {
+					"text": "EL700X"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "STREET TO MEZZANINE"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/21/2018 12:14:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018  9:00:00 AM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Bowling Green"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "4/5"
+				},
+				"equipment": {
+					"text": "ES343"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "LOWER MEZZANINE TO SOUTHBOUND PLATFORM"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/21/2018 11:13:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  5:00:00 AM"
+				},
+				"reason": {
+					"text": "MAINTENANCE"
+				},
+				"isupcomingoutage": {
+					"text": "Y"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Bowling Green"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "4/5"
+				},
+				"equipment": {
+					"text": "ES339"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "LOWER MEZZANINE TO UPPER MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/21/2018 11:37:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  5:00:00 AM"
+				},
+				"reason": {
+					"text": "MAINTENANCE"
+				},
+				"isupcomingoutage": {
+					"text": "Y"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Euclid Av"
+				},
+				"borough": {
+					"text": "BKN"
+				},
+				"trainno": {
+					"text": "A/C"
+				},
+				"equipment": {
+					"text": "EL342"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "MEZZANINE TO UPTOWN"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/20/2018  4:52:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/23/2018  6:00:00 AM"
+				},
+				"reason": {
+					"text": "PLANNED WORK"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Far Rockaway - Mott Av"
+				},
+				"borough": {
+					"text": "QNS"
+				},
+				"trainno": {
+					"text": "A"
+				},
+				"equipment": {
+					"text": "EL498"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "STREET TO PLATFORM"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/21/2018  4:34:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018 12:00:00 PM"
+				},
+				"reason": {
+					"text": "UNDER INVESTIGATION"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Gun Hill Rd"
+				},
+				"borough": {
+					"text": "BX"
+				},
+				"trainno": {
+					"text": "2/5"
+				},
+				"equipment": {
+					"text": "ES104"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "STREET TO MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/20/2018  5:30:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "10/10/2018  8:00:00 AM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Intervale Av"
+				},
+				"borough": {
+					"text": "BX"
+				},
+				"trainno": {
+					"text": "2/5"
+				},
+				"equipment": {
+					"text": "ES108"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "STREET TO MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/20/2018  3:34:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/21/2018  3:00:00 PM"
+				},
+				"reason": {
+					"text": "UNDER INVESTIGATION"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Lexington Av / 53 St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "E/M"
+				},
+				"equipment": {
+					"text": "ES269"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "CENTER ISLAND PLATFORM TO MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/17/2018  3:16:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  6:00:00 AM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Lexington Av / 53 St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "E/M"
+				},
+				"equipment": {
+					"text": "ES253X"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "MEZZANINE TO UNDERPASS 6 TRAIN DOWNTOWN"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/18/2018  9:20:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/28/2018  9:00:00 PM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Park Place"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "2/3"
+				},
+				"equipment": {
+					"text": "ES302"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "CENTER ISLAND PLATFORM TO MEZZANINE"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/21/2018 11:00:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  5:00:00 AM"
+				},
+				"reason": {
+					"text": "MAINTENANCE"
+				},
+				"isupcomingoutage": {
+					"text": "Y"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Pelham Bay Park"
+				},
+				"borough": {
+					"text": "BX"
+				},
+				"trainno": {
+					"text": "6"
+				},
+				"equipment": {
+					"text": "ES120"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "MEZZANINE TO STREET"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/01/2018  1:50:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "11/05/2018 11:00:00 PM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Pelham Pkwy"
+				},
+				"borough": {
+					"text": "BX"
+				},
+				"trainno": {
+					"text": "2/5"
+				},
+				"equipment": {
+					"text": "EL136"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "STREET TO MEZZANINE"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/21/2018 11:00:00 PM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  6:00:00 AM"
+				},
+				"reason": {
+					"text": "INSPECTION"
+				},
+				"isupcomingoutage": {
+					"text": "Y"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "Times Sq - 42 St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "N/Q/R/S/W/1/2/3/7"
+				},
+				"equipment": {
+					"text": "ES218"
+				},
+				"equipmenttype": {
+					"text": "ES"
+				},
+				"serving": {
+					"text": "CENTER ISLAND PLATFORM TO MEZZANINE (41 ST / BWAY)"
+				},
+				"ada": {
+					"text": "N"
+				},
+				"outagedate": {
+					"text": "09/20/2018  4:22:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  8:00:00 PM"
+				},
+				"reason": {
+					"text": "REPAIR"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "West 4 St - Washington Sq"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "A/B/C/D/E/F/M"
+				},
+				"equipment": {
+					"text": "EL335"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "MIDDLE MEZZANINE TO UPTOWN PLATFORMS"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/18/2018  9:55:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/22/2018  8:00:00 AM"
+				},
+				"reason": {
+					"text": "PLANNED WORK"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			},
+			{
+				"station": {
+					"text": "WTC Cortlandt St"
+				},
+				"borough": {
+					"text": "MN"
+				},
+				"trainno": {
+					"text": "1"
+				},
+				"equipment": {
+					"text": "EL736"
+				},
+				"equipmenttype": {
+					"text": "EL"
+				},
+				"serving": {
+					"text": "STREET TO SOUTHBOUND PLATFORM"
+				},
+				"ada": {
+					"text": "Y"
+				},
+				"outagedate": {
+					"text": "09/17/2018 10:49:00 AM"
+				},
+				"estimatedreturntoservice": {
+					"text": "09/17/2021  3:00:00 PM"
+				},
+				"reason": {
+					"text": "PORT AUTHORITY CONSTRUCTION"
+				},
+				"isupcomingoutage": {
+					"text": "N"
+				},
+				"ismaintenanceoutage": {
+					"text": "N"
+				}
+			}
+		]
+	}
+]

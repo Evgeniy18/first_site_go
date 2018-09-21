@@ -6,6 +6,20 @@ import (
 	"net/http"
 )
 
+var files = [11]string{
+	"calendar_dates",
+	"calendar",
+	"routes",
+	"serviceStatus",
+	"serviceStatus2",
+	"serviceStatusSubway",
+	"serviceStatusSubway2",
+	"stations",
+	"stops",
+	"transfers",
+	"trips",
+}
+
 func stops(w http.ResponseWriter, r *http.Request) {
 	f, err := ioutil.ReadFile("src/stops.json")
 	if err != nil {
@@ -116,8 +130,38 @@ func serviceStatus2(w http.ResponseWriter, r *http.Request) {
 	w.Write(f)
 }
 
-func stopTimes(w http.ResponseWriter, r *http.Request) {
-	f, err := ioutil.ReadFile("src/stop_times.json")
+func allequipments(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/allequipments.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(f)
+}
+
+func allequipments2(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/allequipments.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(f)
+}
+
+func NYCEne(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/nyc_ene.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(f)
+}
+
+func NYCEne2(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/nyc_ene2.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -164,13 +208,17 @@ func main() {
 	http.HandleFunc("/calendar", calendar)
 	http.HandleFunc("/calendar_dates", calendarDates)
 	http.HandleFunc("/routes", routes)
+	http.HandleFunc("/trips", trips)
+	http.HandleFunc("/transfers", transfers)
 	http.HandleFunc("/service_status_subway_1", serviceStatusSubway)
 	http.HandleFunc("/service_status_subway_2", serviceStatusSubway2)
 	http.HandleFunc("/service_status_1", serviceStatus)
 	http.HandleFunc("/service_status_2", serviceStatus2)
-	http.HandleFunc("/stop_times", stopTimes)
-	http.HandleFunc("/trips", trips)
-	http.HandleFunc("/transfers", transfers)
+	http.HandleFunc("/allequipments_1", allequipments)
+	http.HandleFunc("/allequipments_2", allequipments2)
+	http.HandleFunc("/nyc_ene_1", NYCEne)
+	http.HandleFunc("/nyc_ene_2", NYCEne2)
+
 	http.ListenAndServe(":"+port, nil)
 
 }
