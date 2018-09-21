@@ -152,7 +152,7 @@ func allequipments2(w http.ResponseWriter, r *http.Request) {
 }
 
 func NYCEne(w http.ResponseWriter, r *http.Request) {
-	f, err := ioutil.ReadFile("src/nyc_ene.json")
+	f, err := ioutil.ReadFile("src/nyct_ene.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -162,7 +162,7 @@ func NYCEne(w http.ResponseWriter, r *http.Request) {
 }
 
 func NYCEne2(w http.ResponseWriter, r *http.Request) {
-	f, err := ioutil.ReadFile("src/nyc_ene2.json")
+	f, err := ioutil.ReadFile("src/nyct_ene2.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -217,8 +217,8 @@ func main() {
 	http.HandleFunc("/service_status_2", serviceStatus2)
 	http.HandleFunc("/allequipments_1", allequipments)
 	http.HandleFunc("/allequipments_2", allequipments2)
-	http.HandleFunc("/nyc_ene_1", NYCEne)
-	http.HandleFunc("/nyc_ene_2", NYCEne2)
+	http.HandleFunc("/nyct_ene_1", NYCEne)
+	http.HandleFunc("/nyct_ene_2", NYCEne2)
 
 	http.ListenAndServe(":"+port, nil)
 
