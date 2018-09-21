@@ -191,6 +191,16 @@ func transfers(w http.ResponseWriter, r *http.Request) {
 	w.Write(f)
 }
 
+func RTFeed(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/feed_pretty.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(f)
+}
+
 func main() {
 
 	port := os.Getenv("PORT")
@@ -219,6 +229,7 @@ func main() {
 	http.HandleFunc("/allequipments_2", allequipments2)
 	http.HandleFunc("/nyct_ene_1", NYCEne)
 	http.HandleFunc("/nyct_ene_2", NYCEne2)
+	http.HandleFunc("/real_time_feed_1", RTFeed)
 
 	http.ListenAndServe(":"+port, nil)
 
