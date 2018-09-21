@@ -142,7 +142,7 @@ func allequipments(w http.ResponseWriter, r *http.Request) {
 }
 
 func allequipments2(w http.ResponseWriter, r *http.Request) {
-	f, err := ioutil.ReadFile("src/allequipments.json")
+	f, err := ioutil.ReadFile("src/allequipments2.json")
 	if err != nil {
 		log.Fatal(err)
 	}
