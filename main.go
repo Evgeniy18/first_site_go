@@ -111,6 +111,16 @@ func serviceStatusSubway2(w http.ResponseWriter, r *http.Request) {
 	w.Write(f)
 }
 
+func improvedServiceStatusSubway(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(f)
+}
+
 func serviceStatus(w http.ResponseWriter, r *http.Request) {
 	f, err := ioutil.ReadFile("src/ServiceStatus.json")
 	if err != nil {
@@ -123,6 +133,16 @@ func serviceStatus(w http.ResponseWriter, r *http.Request) {
 
 func serviceStatus2(w http.ResponseWriter, r *http.Request) {
 	f, err := ioutil.ReadFile("src/ServiceStatus2.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(f)
+}
+
+func improvedServiceStatus(w http.ResponseWriter, r *http.Request) {
+	f, err := ioutil.ReadFile("src/improvedServiceStatus.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -223,8 +243,10 @@ func main() {
 	http.HandleFunc("/transfers", transfers)
 	http.HandleFunc("/service_status_subway_1", serviceStatusSubway)
 	http.HandleFunc("/service_status_subway_2", serviceStatusSubway2)
+	http.HandleFunc("/service_status_subway_improved", improvedServiceStatusSubway)
 	http.HandleFunc("/service_status_1", serviceStatus)
 	http.HandleFunc("/service_status_2", serviceStatus2)
+	http.HandleFunc("/service_status_improved", improvedServiceStatus)
 	http.HandleFunc("/allequipments_1", allequipments)
 	http.HandleFunc("/allequipments_2", allequipments2)
 	http.HandleFunc("/nyct_ene_1", NYCEne)

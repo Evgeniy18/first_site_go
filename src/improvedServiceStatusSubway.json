@@ -1,0 +1,358 @@
+[
+	{
+		"creation_time": "2018-09-19T11:44:39.98-04:00",
+		"situation_number": "\n                  MTA NYCT_ff56a6f3-8097-47cc-8031-2a40a1c17ff8",
+		"start_time": "2018-09-19T11:42:00-04:00",
+		"summary": "[2] trains are running with delays in both directions because of switch problems at 241 St-Wakefield.",
+		"description": "2 trains are running with delays in both directions because of switch problems at 241 St-Wakefield.",
+		"long_description": "\u003cp\u003e[2] trains are running with delays in both directions because of switch problems at \u003cstrong\u003e241 St-Wakefield.\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eOur crews are on the scene working to restore normal service.\u003c/p\u003e",
+		"planned": "false",
+		"reason_name": "Delays",
+		"message_priority": "2",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_2",
+				"direction_ref": "1"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_2",
+				"direction_ref": "0"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "delayed",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-04T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_197680",
+		"start_time": "2018-09-04T00:00:00-04:00",
+		"end_time": "2018-10-05T23:59:00-04:00",
+		"summary": "TRACK REPLACEMENT Until Oct 5 , Mon to Fri, 945 AM to 3 PM  Woodlawn-bound [4] trains skip 183 St, Fordham Rd, Kingsbridge Rd and Bedford Pk Blvd in the Bronx",
+		"description": "TRACK REPLACEMENT Until Oct 5 , Mon to Fri, 945 AM to 3 PM  Woodlawn-bound [4] trains skip 183 St, Fordham Rd, Kingsbridge Rd and Bedford Pk Blvd in the Bronx",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(197680);\u003e\u003cb\u003eTRACK REPLACEMENT\u003cbr clear=left\u003eUntil Oct 5, Mon to Fri, 9:45 AM to 3 PM\u003cbr clear=left\u003e\u003c/font\u003eWoodlawn-bound [4] trains skip 183 St, Fordham Rd, Kingsbridge Rd and Bedford Pk Blvd in the Bronx\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 197680 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eFor service \u003ci\u003eto\u003c/i\u003e these stations, take the [4]\u003cb\u003e \u003c/b\u003eto Mosholu Pkwy and transfer to a Crown Hts-bound [4].\u003cbr\u003e\u003cbr\u003e\u003c/font\u003eFor service \u003ci\u003efrom\u003c/i\u003e these stations, take the [4] to Burnside Av and transfer to a Woodlawn-bound [4].\u003cbr\u003e\u003cbr\u003e[ad] This service change affects one or more ADA accessible stations.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_4",
+				"direction_ref": "0"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "diverted",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-04T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_197678",
+		"start_time": "2018-09-04T00:00:00-04:00",
+		"end_time": "2018-10-05T23:59:00-04:00",
+		"summary": "TRACK REPLACEMENT Until Oct 5 , Mon to Fri , 11 AM to 3 PM [4] Service runs every 16 minutes between Burnside Av and Woodlawn in the Bronx Some uptown [4] trains skip 170 St, Mt Eden Av and 176 St",
+		"description": "TRACK REPLACEMENT Until Oct 5 , Mon to Fri , 11 AM to 3 PM [4] Service runs every 16 minutes between Burnside Av and Woodlawn in the Bronx Some uptown [4] trains skip 170 St, Mt Eden Av and 176 St",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(197678);\u003e\u003cb\u003eTRACK REPLACEMENT\u003cbr clear=left\u003eUntil Oct 5, Mon to Fri\u003c/font\u003e, 11 AM to 3 PM\u003cbr clear=left\u003e[4] Service runs every 16 minutes between Burnside Av and Woodlawn in the Bronx\u003cbr clear=left\u003eSome uptown [4] trains skip 170 St, Mt Eden Av and 176 St\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 197678 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eThe last stop for \u003cb\u003ealternate \u003c/b\u003etrains \u003ci\u003efrom \u003c/i\u003eManhattan is Burnside Av.\u003cbr\u003e\u0026bull; \u003c/font\u003eTransfer at Burnside Av to continue your trip.\u003cbr\u003e\u003cbr\u003e\u003cb\u003eUptown trains ending at Burnside Av \u003c/b\u003eskip 170 St, Mt Eden Av and 176 St.\u003cbr\u003e\u0026bull; Transfer to a Woodlawn-bound [4] train at 167 St.\u003cbr\u003e\u003cbr\u003e[ad] This service change affects one or more ADA accessible stations.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_4",
+				"direction_ref": "0"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_4",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "noService",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-17T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_199062",
+		"start_time": "2018-09-17T00:00:00-04:00",
+		"end_time": "2018-09-21T23:59:00-04:00",
+		"summary": "TRACK MAINTENANCE Sep 17 - 21, Mon to Fri, 945 AM to 330 PM 145 St-bound [B] trains run local from Sheepshead Bay to Prospect Park in Brooklyn",
+		"description": "TRACK MAINTENANCE Sep 17 - 21, Mon to Fri, 945 AM to 330 PM 145 St-bound [B] trains run local from Sheepshead Bay to Prospect Park in Brooklyn",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(199062);\u003e\u003cb\u003eTRACK MAINTENANCE\u003cbr clear=left\u003eSep 17 - 21, Mon to Fri, 9:45 AM to 3:30 PM\u003cbr clear=left\u003e145 St-bound [B] trains run local from Sheepshead Bay to Prospect Park in Brooklyn\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 199062 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_B",
+				"direction_ref": "0"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-10T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_199560",
+		"start_time": "2018-09-10T00:00:00-04:00",
+		"end_time": "2018-09-28T23:59:00-04:00",
+		"summary": "TRACK MAINTENANCE Until Sep 28, Monday to Friday Downtown [B] [D] [F] [M] trains run at a slower speed in the area of W 4 St-Washington Sq in Manhattan",
+		"description": "TRACK MAINTENANCE Until Sep 28, Monday to Friday Downtown [B] [D] [F] [M] trains run at a slower speed in the area of W 4 St-Washington Sq in Manhattan",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(199560);\u003e\u003cb\u003eTRACK MAINTENANCE\u003cbr clear=left\u003eUntil Sep 28, Monday to Friday\u003cbr clear=left\u003eDowntown [B] [D] [F] [M] trains run at a slower speed in the area of W 4 St-Washington Sq in Manhattan\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 199560 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eYou may experience longer wait times, additional crowding and delays on [B] [D] [F] and [M] trains as we repair switches in the area of W 4 St-Washington Sq.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_B",
+				"direction_ref": "1"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_D",
+				"direction_ref": "1"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_F",
+				"direction_ref": "1"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_M",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-10T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_198559",
+		"start_time": "2018-09-10T00:00:00-04:00",
+		"end_time": "2018-10-05T23:59:00-04:00",
+		"summary": "TRACK REPLACEMENT Until Oct 5, Mon to Fri, beginning 945 AM each day Broad St-bound [J] trains make local stops at Flushing Av, Lorimer St and Hewes St in Brooklyn",
+		"description": "TRACK REPLACEMENT Until Oct 5, Mon to Fri, beginning 945 AM each day Broad St-bound [J] trains make local stops at Flushing Av, Lorimer St and Hewes St in Brooklyn",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(198559);\u003e\u003cb\u003eTRACK REPLACEMENT\u003cbr clear=left\u003eUntil Oct 5, Mon to Fri, beginning 9:45 AM each day\u003cbr clear=left\u003eBroad St-bound [J] trains make local stops at Flushing Av, Lorimer St and Hewes St in Brooklyn\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 198559 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eBroad St-bound \u003ci\u003eexpress \u003c/i\u003eservice ends early.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_J",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-10T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_198558",
+		"start_time": "2018-09-10T00:00:00-04:00",
+		"end_time": "2018-10-05T23:59:00-04:00",
+		"summary": "TRACK REPLACEMENT Until Oct 5, Mon to Fri, 945 AM to 330 PM Jamaica Center-bound [J] and Middle Village-bound [M] trains skip Hewes St, Lorimer St and Flushing Av in Brooklyn",
+		"description": "TRACK REPLACEMENT Until Oct 5, Mon to Fri, 945 AM to 330 PM Jamaica Center-bound [J] and Middle Village-bound [M] trains skip Hewes St, Lorimer St and Flushing Av in Brooklyn",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(198558);\u003e\u003cb\u003eTRACK REPLACEMENT\u003cbr clear=left\u003eUntil Oct 5, Mon to Fri, 9:45 AM to 3:30 PM\u003cbr clear=left\u003eJamaica Center-bound [J] and Middle Village-bound [M] trains skip Hewes St, Lorimer St and Flushing Av in Brooklyn\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 198558 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eFor service\u003ci\u003e to\u003c/i\u003e these stations, take the [J] or [M] to Myrtle Av and transfer to a Manhattan-bound [J] or [M].\u003cbr\u003e\u003cbr\u003eFor service \u003ci\u003efrom\u003c/i\u003e these stations, take the [J] or [M] to Essex St* and transfer to a Jamaica Center-bound [J] or Middle Village-bound [M].\u003cbr\u003e\u003cbr\u003e\u003ci\u003e*Transfer at Marcy Av with \u003ca href=http://web.mta.info/metrocard/mcgtreng.htm#unlimited target=_blank\u003e\u003cfont color=#0000FF\u003eUnlimited Ride MetroCard\u003c/font\u003e\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e\u003cb\u003eAlternate travel note:\u003cbr\u003e\u003c/b\u003e\u003c/i\u003eTake the \u003cb\u003eB46\u003c/b\u003e bus via transfer at Marcy Av or Myrtle Av.\u003cbr\u003e\u003cbr\u003e[ad] This service change affects one or more ADA accessible stations.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_J",
+				"direction_ref": "0"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_M",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "diverted",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-10T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_199098",
+		"start_time": "2018-09-10T00:00:00-04:00",
+		"end_time": "2018-10-19T23:59:00-04:00",
+		"summary": "SIGNAL IMPROVEMENTS Until Oct 19, Mon to Fri, 11 AM to 3 PM [L] Service runs every 12 minutes between Myrtle-Wyckoff Avs and Rockaway Pkwy in Brooklyn",
+		"description": "SIGNAL IMPROVEMENTS Until Oct 19, Mon to Fri, 11 AM to 3 PM [L] Service runs every 12 minutes between Myrtle-Wyckoff Avs and Rockaway Pkwy in Brooklyn",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(199098);\u003e\u003cb\u003eSIGNAL IMPROVEMENTS\u003cbr clear=left\u003eUntil Oct 19, Mon to Fri, 11 AM to 3 PM\u003cbr clear=left\u003e[L] Service runs every 12 minutes between Myrtle-Wyckoff Avs and Rockaway Pkwy in Brooklyn\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 199098 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eThe last stop for \u003cb\u003ealternate\u003c/b\u003e trains \u003ci\u003efrom \u003c/i\u003eManhattan is Myrtle-Wyckoff Avs.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_L",
+				"direction_ref": "0"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_L",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-07-30T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_196775",
+		"start_time": "2018-07-30T00:00:00-04:00",
+		"end_time": "2019-07-31T23:59:00-04:00",
+		"summary": "STRUCTURAL REHABILITATION Through July 2019 [N] Trains are making local stops in Brooklyn at 53 St and 45 St in both directions",
+		"description": "STRUCTURAL REHABILITATION Through July 2019 [N] Trains are making local stops in Brooklyn at 53 St and 45 St in both directions",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(196775);\u003e\u003cb\u003eSTRUCTURAL REHABILITATION\u003cbr clear=left\u003eThrough July 2019\u003cbr clear=left\u003e[N] Trains are making local stops in Brooklyn at 53 St and 45 St in both directions\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 196775 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_N",
+				"direction_ref": "1"
+			},
+			{
+				"line_ref": "\n                      MTA NYCT_N",
+				"direction_ref": "0"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-17T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_199061",
+		"start_time": "2018-09-17T00:00:00-04:00",
+		"end_time": "2018-09-21T23:59:00-04:00",
+		"summary": "TRACK MAINTENANCE Sep 17 - 21, Mon to Fri, 945 AM to 330 PM Coney Island-bound [Q] trains run express from Prospect Park to Sheepshead Bay in Brooklyn",
+		"description": "TRACK MAINTENANCE Sep 17 - 21, Mon to Fri, 945 AM to 330 PM Coney Island-bound [Q] trains run express from Prospect Park to Sheepshead Bay in Brooklyn",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(199061);\u003e\u003cb\u003eTRACK MAINTENANCE\u003cbr clear=left\u003eSep 17 - 21, Mon to Fri, 9:45 AM to 3:30 PM\u003cbr clear=left\u003eConey Island-bound [Q] trains run express from Prospect Park to Sheepshead Bay in Brooklyn\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 199061 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003eTrains stop at Church Av, Newkirk Plaza and Kings Hwy.\u003cbr\u003e\u003cbr\u003eFor service \u003ci\u003eto \u003c/i\u003eParkside Av, Beverley, Cortelyou Rds, Avenue H, Avenue J, Avenue M, Avenue U and Neck Rd, take the [Q] to Church Av, Newkirk Plaza, Kings Hwy or Sheepshead Bay and transfer to a Manhattan-bound [B]* or [Q].\u003cbr\u003e\u003cbr\u003eFor service \u003ci\u003efrom\u003c/i\u003e these stations, take the [B] or [Q] to Kings Hwy, Newkirk Plaza, Church Av or Prospect Park and transfer to a Coney Island-bound [Q].\u003cbr\u003e\u003cbr\u003e\u003ci\u003e*This detour has taken into account additional planned service changes.\u003cbr\u003e\u003cbr\u003e\u003c/i\u003e[ad] This service change affects one or more ADA accessible stations.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_Q",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "diverted",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-19T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_201650",
+		"start_time": "2018-09-19T00:00:00-04:00",
+		"end_time": "2018-09-19T23:59:00-04:00",
+		"summary": "SCHEDULED MAINTENANCE Sep 19, Wednesday, 9 AM to 3 PM [SIR] Trains board at the St. George-bound platform from Stapleton to Grasmere Stations",
+		"description": "SCHEDULED MAINTENANCE Sep 19, Wednesday, 9 AM to 3 PM [SIR] Trains board at the St. George-bound platform from Stapleton to Grasmere Stations",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(201650);\u003e\u003cb\u003eSCHEDULED MAINTENANCE\u003cbr clear=left\u003eSep 19, Wednesday, 9 AM to 3 PM\u003cbr clear=left\u003e[SIR] Trains board at the St. George-bound platform from Stapleton to Grasmere Stations\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 201650 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003e\u0026bull; Boarding change includes \u003cb\u003eStapleton\u003c/b\u003e, \u003cb\u003eClifton\u003c/b\u003e and \u003cb\u003eGrasmere Stations\u003c/b\u003e.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_SI",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-19T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_201651",
+		"start_time": "2018-09-19T00:00:00-04:00",
+		"end_time": "2018-09-19T23:59:00-04:00",
+		"summary": "SCHEDULED MAINTENANCE Sep 19, Wednesday, 9 AM to 3 PM [SIR] St. George-bound trains run on an adjusted schedule",
+		"description": "SCHEDULED MAINTENANCE Sep 19, Wednesday, 9 AM to 3 PM [SIR] St. George-bound trains run on an adjusted schedule",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(201651);\u003e\u003cb\u003eSCHEDULED MAINTENANCE\u003cbr clear=left\u003eSep 19, Wednesday, 9 AM to 3 PM\u003cbr clear=left\u003e[SIR] St. George-bound trains run on an adjusted schedule\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 201651 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/b\u003e\u0026bull; St. George-bound trains depart 1 minute \u003ci\u003eearlier\u003c/i\u003e than regularly scheduled.\u003cbr\u003e\u003cb\u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_SI",
+				"direction_ref": "0"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	},
+	{
+		"creation_time": "2018-09-18T00:00:00-04:00",
+		"situation_number": "\n                  MTA NYCT_201122",
+		"start_time": "2018-09-18T00:00:00-04:00",
+		"end_time": "2018-09-19T23:59:00-04:00",
+		"summary": "SCHEDULED MAINTENANCE Sep 19, Wednesday, 9 AM to 3 PM [SIR] Trains board at the St. George-bound platform at Richmond Valley and Arthur Kill Stations",
+		"description": "SCHEDULED MAINTENANCE Sep 19, Wednesday, 9 AM to 3 PM [SIR] Trains board at the St. George-bound platform at Richmond Valley and Arthur Kill Stations",
+		"long_description": "\u003ca class=\"plannedWorkDetailLink\" onclick=ShowHide(201122);\u003e\u003cb\u003eSCHEDULED MAINTENANCE\u003cbr clear=left\u003eSep 19, Wednesday, 9 AM to 3 PM\u003cbr clear=left\u003e[SIR] Trains board at the St. George-bound platform at Richmond Valley and Arthur Kill Stations\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\u003cdiv id= 201122 class=\"plannedWorkDetail\" \u003e\u003cbr\u003e\u003c/div\u003e\u003c/b\u003e\u003cbr/\u003e",
+		"planned": "true",
+		"reason_name": "Planned Work",
+		"message_priority": "\n                  1\n                ",
+		"source_type": "directReport",
+		"affected_vehicle_journey": [
+			{
+				"line_ref": "\n                      MTA NYCT_SI",
+				"direction_ref": "1"
+			}
+		],
+		"consequences": [
+			{
+				"condition": "altered",
+				"severity": "undefined"
+			}
+		]
+	}
+]
