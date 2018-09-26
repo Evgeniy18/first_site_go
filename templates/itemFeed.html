@@ -1,0 +1,17 @@
+<div>Count of situations: {{ .Count}}</div>
+    <hr>
+    {{range .Situations}}
+    {{range .AffectedVehicleJourney}}
+        <div>Line: {{ .LineRef}}</div>
+        <div>Direction: {{ .DirectionRef}}</div>
+    {{end}}
+    <div>Start time: {{ .StartTime}}</div>    
+    <div>End time: {{ .EndTime}}</div>
+    <div>Summary: {{ .Summary}}</div>
+    <div>Description: {{ .Description}}</div>
+    <div>Long Description: <br>
+        <div style="padding-left:30px">{{ .LongDescription}}</div>
+    </div>
+    <hr>
+    <p>
+{{end}}
