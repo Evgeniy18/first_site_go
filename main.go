@@ -342,7 +342,7 @@ type Situation struct {
 	EndTime                string                   `json:"end_time,omitempty"`
 	Summary                string                   `json:"summary,omitempty"`
 	Description            string                   `json:"description,omitempty"`
-	LongDescription        template.HTML            `json:"long_description,omitempty"`
+	LongDescription        string                   `json:"long_description,omitempty"`
 	Planned                string                   `json:"planned,omitempty"`
 	ReasonName             string                   `json:"reason_name,omitempty"`
 	MessagePriority        string                   `json:"message_priority,omitempty"`
@@ -431,7 +431,6 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 		log.Fatal(err)
 	}
 
-	//newService := improveServiceStatus(*i)
 	newService := improveServiceStatusSubway(*i)
 	json, err := json.MarshalIndent(newService, "", "	")
 	if err != nil {
@@ -447,6 +446,7 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 }
 
 func improveServiceStatusSubway(s Siri) []Situation {
+	log.Print("func improve run")
 	//situations := Situation{}
 	serviceStatusSubway := []Situation{}
 	for _, situation := range s.ServiceDelivery.SituationExchangeDelivery.Situations.PtSituationElement {
@@ -473,7 +473,7 @@ func improveServiceStatusSubway(s Siri) []Situation {
 			EndTime:                situation.PublicationWindow.EndTime.Text,
 			Summary:                situation.Summary.Text,
 			Description:            situation.Description.Text,
-			LongDescription:        template.HTML(situation.LongDescription.Text),
+			LongDescription:        situation.LongDescription.Text,
 			Planned:                situation.Planned.Text,
 			ReasonName:             situation.ReasonName.Text,
 			MessagePriority:        situation.MessagePriority.Text,
