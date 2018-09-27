@@ -26,7 +26,6 @@ var files = [11]string{
 	"transfers",
 	"trips",
 }
-var flag = true
 
 func stops(w http.ResponseWriter, r *http.Request) {
 	f, err := ioutil.ReadFile("src/stops.json")
@@ -363,10 +362,6 @@ func situations(w http.ResponseWriter, r *http.Request) {
 		Situations []Situation
 	}
 
-	for flag == false {
-
-	}
-
 	fin, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
 	if err != nil {
 		log.Fatal(err)
@@ -395,10 +390,6 @@ func giveSituations(w http.ResponseWriter, r *http.Request) {
 	type ViewData struct {
 		Count      int
 		Situations []Situation
-	}
-
-	for flag == false {
-
 	}
 
 	fin, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
@@ -434,10 +425,9 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-
+	log.Println(string(body))
 	err = xml.Unmarshal(body, i)
 	if err != nil {
-		log.Print(string(body))
 		log.Fatal(err)
 	}
 
@@ -447,7 +437,7 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	flag = false
+
 	fout, err := os.Create(out)
 	if err != nil {
 		log.Fatal(err)
@@ -455,7 +445,6 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	defer fout.Close()
 	fmt.Fprintf(bufio.NewWriter(fout), "%s", string(json))
 	log.Print("File was refreshed.")
-	flag = true
 }
 
 func improveServiceStatusSubway(s Siri) []Situation {
