@@ -426,14 +426,26 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Print("start unmarshal")
-	err = xml.Unmarshal(body, i)
+
+	fservice, err := os.Create("src/service.xml")
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Print("end unmarshal")
+	fservice.Write(body)
+	fservice.Close()
+
+	file, err := ioutil.ReadFile("src/service.xml")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	err = xml.Unmarshal(file, i)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	newService := improveServiceStatusSubway(*i)
-	log.Print("end improve")
+
 	json, err := json.MarshalIndent(newService, "", "	")
 	if err != nil {
 		log.Fatal(err)
