@@ -441,6 +441,7 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	log.Print(len(file))
 	err = xml.Unmarshal(file, i)
 	if err != nil {
+		log.Print("!!!!!!!!")
 		log.Fatal(err)
 	}
 
