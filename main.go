@@ -26,6 +26,7 @@ var files = [11]string{
 	"transfers",
 	"trips",
 }
+var flag = true
 
 func stops(w http.ResponseWriter, r *http.Request) {
 	f, err := ioutil.ReadFile("src/stops.json")
@@ -392,6 +393,10 @@ func giveSituations(w http.ResponseWriter, r *http.Request) {
 		Situations []Situation
 	}
 
+	for flag == false {
+
+	}
+
 	fin, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
 	if err != nil {
 		log.Fatal(err)
@@ -413,7 +418,6 @@ func giveSituations(w http.ResponseWriter, r *http.Request) {
 
 func saveXMLToJSONWithStruct(i *Siri, out string) {
 
-	log.Print("start save")
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", "http://web.mta.info/status/ServiceStatusSubway.xml", nil)
 	resp, err := client.Do(req)
@@ -427,30 +431,18 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 		log.Fatal(err)
 	}
 
-	fservice, err := os.Create("src/service.xml")
+	err = xml.Unmarshal(body, i)
 	if err != nil {
-		log.Fatal(err)
-	}
-	fservice.Write(body)
-	fservice.Close()
-
-	file, err := ioutil.ReadFile("src/service.xml")
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Print(len(file))
-	err = xml.Unmarshal(file, i)
-	if err != nil {
-		log.Print("!!!!!!!!")
 		log.Fatal(err)
 	}
 
+	//newService := improveServiceStatus(*i)
 	newService := improveServiceStatusSubway(*i)
-
 	json, err := json.MarshalIndent(newService, "", "	")
 	if err != nil {
 		log.Fatal(err)
 	}
+	flag = false
 	fout, err := os.Create(out)
 	if err != nil {
 		log.Fatal(err)
@@ -458,10 +450,10 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	defer fout.Close()
 	fmt.Fprintf(bufio.NewWriter(fout), "%s", string(json))
 	log.Print("File was refreshed.")
+	flag = true
 }
 
 func improveServiceStatusSubway(s Siri) []Situation {
-	log.Print("func improve run")
 	//situations := Situation{}
 	serviceStatusSubway := []Situation{}
 	for _, situation := range s.ServiceDelivery.SituationExchangeDelivery.Situations.PtSituationElement {
@@ -503,15 +495,15 @@ func improveServiceStatusSubway(s Siri) []Situation {
 
 func updateFile() {
 	for {
-		time.Sleep(1 * time.Minute)
 		myStruct := &Siri{}
 		fileNameOut := "src/improvedServiceStatusSubway.json"
 		saveXMLToJSONWithStruct(myStruct, fileNameOut)
-
+		time.Sleep(1 * time.Minute)
 	}
 }
 
 func main() {
+
 	go updateFile()
 
 	port := os.Getenv("PORT")
