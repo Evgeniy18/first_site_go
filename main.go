@@ -501,7 +501,7 @@ func updateFile() {
 
 func main() {
 
-	go updateFile()
+	//go updateFile()
 
 	port := os.Getenv("PORT")
 	if port == "" {
