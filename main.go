@@ -413,6 +413,7 @@ func giveSituations(w http.ResponseWriter, r *http.Request) {
 
 func saveXMLToJSONWithStruct(i *Siri, out string) {
 
+	log.Print("start save")
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", "http://web.mta.info/status/ServiceStatusSubway.xml", nil)
 	resp, err := client.Do(req)
@@ -425,13 +426,14 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-
+	log.Print("start unmarshal")
 	err = xml.Unmarshal(body, i)
 	if err != nil {
 		log.Fatal(err)
 	}
-
+	log.Print("end unmarshal")
 	newService := improveServiceStatusSubway(*i)
+	log.Print("end improve")
 	json, err := json.MarshalIndent(newService, "", "	")
 	if err != nil {
 		log.Fatal(err)
@@ -497,8 +499,6 @@ func updateFile() {
 }
 
 func main() {
-
-	log.Print("start app")
 	go updateFile()
 
 	port := os.Getenv("PORT")
