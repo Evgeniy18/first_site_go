@@ -425,7 +425,7 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Println(string(body))
+
 	err = xml.Unmarshal(body, i)
 	if err != nil {
 		log.Fatal(err)
@@ -498,7 +498,7 @@ func updateFile() {
 
 func main() {
 
-	go updateFile()
+	//go updateFile()
 
 	port := os.Getenv("PORT")
 	if port == "" {
