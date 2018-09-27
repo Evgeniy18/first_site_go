@@ -488,10 +488,11 @@ func improveServiceStatusSubway(s Siri) []Situation {
 
 func updateFile() {
 	for {
+		time.Sleep(1 * time.Minute)
 		myStruct := &Siri{}
 		fileNameOut := "src/improvedServiceStatusSubway.json"
 		saveXMLToJSONWithStruct(myStruct, fileNameOut)
-		time.Sleep(1 * time.Minute)
+
 	}
 }
 
