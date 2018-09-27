@@ -498,6 +498,7 @@ func updateFile() {
 
 func main() {
 
+	log.Print("start app")
 	go updateFile()
 
 	port := os.Getenv("PORT")
