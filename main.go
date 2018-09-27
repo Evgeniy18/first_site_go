@@ -420,7 +420,7 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 		log.Fatal(err)
 	}
 	defer resp.Body.Close()
-
+	log.Print(resp.Status)
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		log.Fatal(err)
@@ -498,7 +498,7 @@ func updateFile() {
 
 func main() {
 
-	//go updateFile()
+	go updateFile()
 
 	port := os.Getenv("PORT")
 	if port == "" {
