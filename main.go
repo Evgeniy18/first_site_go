@@ -363,6 +363,10 @@ func situations(w http.ResponseWriter, r *http.Request) {
 		Situations []Situation
 	}
 
+	for flag == false {
+
+	}
+
 	fin, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
 	if err != nil {
 		log.Fatal(err)
@@ -495,10 +499,10 @@ func improveServiceStatusSubway(s Siri) []Situation {
 
 func updateFile() {
 	for {
+		time.Sleep(1 * time.Minute)
 		myStruct := &Siri{}
 		fileNameOut := "src/improvedServiceStatusSubway.json"
 		saveXMLToJSONWithStruct(myStruct, fileNameOut)
-		time.Sleep(1 * time.Minute)
 	}
 }
 
