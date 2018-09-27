@@ -437,6 +437,7 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 
 	err = xml.Unmarshal(body, i)
 	if err != nil {
+		log.Print(string(body))
 		log.Fatal(err)
 	}
 
