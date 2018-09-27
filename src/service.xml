@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><Siri xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns="http://www.siri.org.uk/siri" xmlns:ns4="http://datex2.eu/schema/1_0/1_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt"><ServiceDelivery><ResponseTimestamp>2018-09-27T06:38:14.7083909-04:00</ResponseTimestamp><SituationExchangeDelivery><ResponseTimestamp>2018-09-27T06:38:14.7083909-04:00</ResponseTimestamp><Status>true</Status><Situations>
+  <PtSituationElement>
+    <CreationTime>2018-09-27T06:35:18.353-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_763d76c1-e531-4121-bf25-646586eadb78</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2018-09-27T06:32:00-04:00</StartTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">Southbound [2] and [3] trains are running with delays because someone needs medical assistance at 14 St.</Summary>
+    <Description xml:lang="EN">Southbound 2 and 3 trains are running with delays because someone needs medical assistance at 14 St.</Description>
+    <LongDescription>Southbound [2] and [3] trains are running with delays because someone needs medical assistance at &lt;strong&gt;14 St&lt;/strong&gt;.</LongDescription>
+    <Planned>false</Planned>
+    <ReasonName>Delays</ReasonName>
+    <MessagePriority>2</MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_2</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_3</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>delayed</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+  <PtSituationElement>
+    <CreationTime>2018-09-27T06:14:35.94-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_3e6e2419-8ed1-4520-b8c5-eacc8b906c3b</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2018-09-27T05:51:00-04:00</StartTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">Southbound [E] trains are running with delays because of a signal problem at Sutphin Blvd-Archer Av-JFK Airport.</Summary>
+    <Description xml:lang="EN">Southbound E trains are running with delays because of a signal problem at Sutphin Blvd-Archer Av-JFK Airport.</Description>
+    <LongDescription>Southbound [E] trains are running with delays because of a signal problem at &lt;strong&gt;Sutphin Blvd-Archer Av-JFK Airport.&lt;/strong&gt;</LongDescription>
+    <Planned>false</Planned>
+    <ReasonName>Delays</ReasonName>
+    <MessagePriority>2</MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_E</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>delayed</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+  <PtSituationElement>
+    <CreationTime>2018-09-27T06:37:54.167-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_245bff2e-51a3-47ef-b561-82591505a6c9</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2018-09-27T06:35:00-04:00</StartTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">Northbound [Q] trains are running express from Brighton Beach to Kings Hwy because of a tree branch on the tracks at Sheepshead Bay.</Summary>
+    <Description xml:lang="EN">Northbound Q trains are running express from Brighton Beach to Kings Hwy because of a tree branch on the tracks at Sheepshead Bay.</Description>
+    <LongDescription>Northbound [Q] trains are running express from &lt;strong&gt;Brighton Beach &lt;/strong&gt;to &lt;strong&gt;Kings Hwy&lt;/strong&gt; because of a tree branch on the tracks at &lt;strong&gt;Sheepshead Bay.&lt;/strong&gt;</LongDescription>
+    <Planned>false</Planned>
+    <ReasonName>Service Change</ReasonName>
+    <MessagePriority>3</MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_Q</LineRef>
+          <DirectionRef>0</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>altered</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+  <PtSituationElement>
+    <CreationTime>2018-09-10T00:00:00-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_199560</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2018-09-10T00:00:00-04:00</StartTime>
+      <EndTime>2018-09-28T23:59:00-04:00</EndTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">TRACK MAINTENANCE Until Sep 28, Monday to Friday Downtown [B] [D] [F] [M] trains run at a slower speed in the area of W 4 St-Washington Sq in Manhattan</Summary>
+    <Description xml:lang="EN">TRACK MAINTENANCE Until Sep 28, Monday to Friday Downtown [B] [D] [F] [M] trains run at a slower speed in the area of W 4 St-Washington Sq in Manhattan</Description>
+    <LongDescription>&lt;a class="plannedWorkDetailLink" onclick=ShowHide(199560);&gt;&lt;b&gt;TRACK MAINTENANCE&lt;br clear=left&gt;Until Sep 28, Monday to Friday&lt;br clear=left&gt;Downtown [B] [D] [F] [M] trains run at a slower speed in the area of W 4 St-Washington Sq in Manhattan&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 199560 class="plannedWorkDetail" &gt;&lt;br&gt;&lt;/b&gt;You may experience longer wait times, additional crowding and delays on [B] [D] [F] and [M] trains as we repair switches in the area of W 4 St-Washington Sq.&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;</LongDescription>
+    <Planned>true</Planned>
+    <ReasonName>Planned Work</ReasonName>
+    <MessagePriority>
+                  1
+                </MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_B</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_D</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_F</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_M</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>altered</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+  <PtSituationElement>
+    <CreationTime>2018-09-10T00:00:00-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_200402</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2018-09-10T00:00:00-04:00</StartTime>
+      <EndTime>2018-09-28T23:59:00-04:00</EndTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">TRACK MAINTENANCE Until Sep 28, Monday to Friday [F] Rush hour service reduced to accommodate switch work in the area of W 4 St in Manhattan</Summary>
+    <Description xml:lang="EN">TRACK MAINTENANCE Until Sep 28, Monday to Friday [F] Rush hour service reduced to accommodate switch work in the area of W 4 St in Manhattan</Description>
+    <LongDescription>&lt;a class="plannedWorkDetailLink" onclick=ShowHide(200402);&gt;&lt;b&gt;TRACK MAINTENANCE&lt;br clear=left&gt;Until Sep 28, Monday to Friday&lt;br clear=left&gt;[F] Rush hour service reduced to accommodate switch work in the area of W 4 St in Manhattan&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 200402 class="plannedWorkDetail" &gt;&lt;br&gt;&lt;/b&gt;Two AM rush hour [F] trains will not run between 7:30 AM and 8:30 AM.&lt;br&gt;Two PM rush hour [F] trains will not run between 4 PM and 4:45 PM.&lt;br&gt;&lt;br&gt;You may experience longer wait times, additional crowding and delays as we repair switches in the area of W 4 St-Washington Sq.&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;</LongDescription>
+    <Planned>true</Planned>
+    <ReasonName>Planned Work</ReasonName>
+    <MessagePriority>
+                  1
+                </MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_F</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_F</LineRef>
+          <DirectionRef>0</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>altered</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+  <PtSituationElement>
+    <CreationTime>2018-09-10T00:00:00-04:00</CreationTime>
+    <SituationNumber>
+                  MTA NYCT_200406</SituationNumber>
+    <PublicationWindow>
+      <StartTime>2018-09-10T00:00:00-04:00</StartTime>
+      <EndTime>2018-09-28T23:59:00-04:00</EndTime>
+    </PublicationWindow>
+    <Summary xml:lang="EN">TRACK MAINTENANCE Until Sep 28, Monday to Friday [M] Morning rush hour service reduced to accommodate switch work in the area of W 4 St in Manhattan</Summary>
+    <Description xml:lang="EN">TRACK MAINTENANCE Until Sep 28, Monday to Friday [M] Morning rush hour service reduced to accommodate switch work in the area of W 4 St in Manhattan</Description>
+    <LongDescription>&lt;a class="plannedWorkDetailLink" onclick=ShowHide(200406);&gt;&lt;b&gt;TRACK MAINTENANCE&lt;br clear=left&gt;Until Sep 28, Monday to Friday&lt;br clear=left&gt;[M] Morning rush hour service reduced to accommodate switch work in the area of W 4 St in Manhattan&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;div id= 200406 class="plannedWorkDetail" &gt;&lt;br&gt;&lt;/b&gt;Two AM rush hour [M] trains will not run between 7:30 AM and 8:30 AM.&lt;br&gt;&lt;br&gt;You may experience longer wait times, additional crowding and delays as we repair switches in the area of W 4 St-Washington Sq.&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;br/&gt;</LongDescription>
+    <Planned>true</Planned>
+    <ReasonName>Planned Work</ReasonName>
+    <MessagePriority>
+                  1
+                </MessagePriority>
+    <Source>
+      <SourceType>directReport</SourceType>
+    </Source>
+    <Affects>
+      <VehicleJourneys>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_M</LineRef>
+          <DirectionRef>0</DirectionRef>
+        </AffectedVehicleJourney>
+        <AffectedVehicleJourney>
+          <LineRef>
+                      MTA NYCT_M</LineRef>
+          <DirectionRef>1</DirectionRef>
+        </AffectedVehicleJourney>
+      </VehicleJourneys>
+    </Affects>
+    <Consequences>
+      <Consequence>
+        <Condition>altered</Condition>
+        <Severity>undefined</Severity>
+      </Consequence>
+    </Consequences>
+  </PtSituationElement>
+</Situations></SituationExchangeDelivery></ServiceDelivery></Siri>
