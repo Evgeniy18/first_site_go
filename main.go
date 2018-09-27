@@ -419,8 +419,9 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Print(resp.StatusCode)
 	defer resp.Body.Close()
+
+	log.Print(resp.StatusCode)
 	if resp.StatusCode == 200 {
 		body, err := ioutil.ReadAll(resp.Body)
 		if err != nil {
