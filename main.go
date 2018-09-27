@@ -10,7 +10,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"time"
 )
 
 var files = [11]string{
@@ -362,6 +361,10 @@ func situations(w http.ResponseWriter, r *http.Request) {
 		Situations []Situation
 	}
 
+	myStruct := &Siri{}
+	fileNameOut := "src/improvedServiceStatusSubway.json"
+	saveXMLToJSONWithStruct(myStruct, fileNameOut)
+
 	fin, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
 	if err != nil {
 		log.Fatal(err)
@@ -391,6 +394,10 @@ func giveSituations(w http.ResponseWriter, r *http.Request) {
 		Count      int
 		Situations []Situation
 	}
+
+	myStruct := &Siri{}
+	fileNameOut := "src/improvedServiceStatusSubway.json"
+	saveXMLToJSONWithStruct(myStruct, fileNameOut)
 
 	fin, err := ioutil.ReadFile("src/improvedServiceStatusSubway.json")
 	if err != nil {
@@ -490,14 +497,14 @@ func improveServiceStatusSubway(s Siri) []Situation {
 	return serviceStatusSubway
 }
 
-func updateFile() {
+/* func updateFile() {
 	for {
 		time.Sleep(1 * time.Minute)
 		myStruct := &Siri{}
 		fileNameOut := "src/improvedServiceStatusSubway.json"
 		saveXMLToJSONWithStruct(myStruct, fileNameOut)
 	}
-}
+} */
 
 func main() {
 
