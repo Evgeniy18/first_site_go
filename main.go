@@ -419,32 +419,34 @@ func saveXMLToJSONWithStruct(i *Siri, out string) {
 	if err != nil {
 		log.Fatal(err)
 	}
+	log.Print(resp.StatusCode)
 	defer resp.Body.Close()
+	if resp.StatusCode == 200 {
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			log.Fatal(err)
+		}
 
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
+		err = xml.Unmarshal(body, i)
+		if err != nil {
+			log.Fatal(err)
+		}
 
-	err = xml.Unmarshal(body, i)
-	if err != nil {
-		log.Fatal(err)
-	}
+		//newService := improveServiceStatus(*i)
+		newService := improveServiceStatusSubway(*i)
+		json, err := json.MarshalIndent(newService, "", "	")
+		if err != nil {
+			log.Fatal(err)
+		}
 
-	//newService := improveServiceStatus(*i)
-	newService := improveServiceStatusSubway(*i)
-	json, err := json.MarshalIndent(newService, "", "	")
-	if err != nil {
-		log.Fatal(err)
+		fout, err := os.Create(out)
+		if err != nil {
+			log.Fatal(err)
+		}
+		defer fout.Close()
+		fmt.Fprintf(bufio.NewWriter(fout), "%s", string(json))
+		log.Print("File was refreshed.")
 	}
-
-	fout, err := os.Create(out)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer fout.Close()
-	fmt.Fprintf(bufio.NewWriter(fout), "%s", string(json))
-	log.Print("File was refreshed.")
 }
 
 func improveServiceStatusSubway(s Siri) []Situation {
