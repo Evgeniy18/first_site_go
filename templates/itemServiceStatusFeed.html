@@ -1,0 +1,13 @@
+<div>Count of line: {{ .Count}}</div>
+<hr>
+{{range .ServiceStatus.Subway.Line}}
+    <div>Name of line: {{ .Name}}</div>    
+    <div>Status ofline: {{ .Status}}</div>
+    <div>Date: {{ .Date}}</div>
+    <div>Time: {{ .Time}}</div>
+    <div>Text: <br>
+        <div style="padding-left:30px">{{ .Text}}</div>
+    </div>
+    <hr>
+    <p>
+{{end}}
