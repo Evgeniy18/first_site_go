@@ -267,7 +267,6 @@ func serviceStatusRT(w http.ResponseWriter, r *http.Request) {
 		log.Fatal(err)
 	}
 
-	log.Print(servStatus)
 	data := ViewData{
 		Count:         len(servStatus.Subway.Line),
 		ServiceStatus: servStatus,
