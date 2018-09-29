@@ -277,11 +277,11 @@ func serviceStatusRT(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	/* port := os.Getenv("PORT")
+	port := os.Getenv("PORT")
 	if port == "" {
 		log.Fatal("$PORT must be set")
-	} */
-	port := "8080"
+	}
+	
 
 	fs := http.FileServer(http.Dir("static"))
 
